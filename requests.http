@@ -1,0 +1,22 @@
+### GET request
+GET localhost:8080
+
+### POST request create user with Body
+POST localhost:8080/register/user
+Content-Type: application/json
+
+{
+  "username": "nex",
+  "password": "0880",
+  "role": "USER"
+}
+
+### Create Admin
+POST localhost:8080/register/user
+Content-Type: application/json
+
+{
+"username": "admin",
+"password": "admin",
+"role": "ADMIN"
+}

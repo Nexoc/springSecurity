@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #3498db; /* Blue background color */
+            color: #333; /* Text color */
+        }
+        .container {
+            width: 80%;
+            margin: 100px auto;
+            background-color: #fff; /* Gray content background color */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>This is a main page</h1>
+    <div class="profile">
+        <p>Welcome</p>
+        <p>This is the main page</p>
+    </div>
+    <a href="/admin/home" class="button">Admin</a>
+    <a href="/user/home" class="button">User</a>
+    <a href="/logout" class="button">Logout</a>
+
+</div>
+</body>
+</html>
